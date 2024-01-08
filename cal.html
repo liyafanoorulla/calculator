@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3" ><input id="input"  value="0" type="text"></td>
+                <td><button onclick="clean()">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="disp('1')">1</button></td>
+                <td><button onclick="disp('2')">2</button></td>
+                <td><button onclick="disp('3')">3</button></td>
+                <td><button onclick="disp('+')">+</button></td>
+             </tr>
+             <tr>
+                <td><button onclick="disp('4')">4</button></td>
+                <td><button onclick="disp('5')">5</button></td>
+                <td><button onclick="disp('6')">6</button></td>
+                <td><button onclick="disp('-')">-</button></td>
+             </tr>
+             <tr>
+                <td><button onclick="disp('7')">7</button></td>
+                <td><button onclick="disp('8')">8</button></td>
+                <td><button onclick="disp('9')">9</button></td>
+                <td><button onclick="disp('*')">*</button></td>
+             </tr>
+             <tr>
+                <td><button onclick="disp('0')">0</button></td>
+                <td><button onclick="disp('.')">.</button></td>
+                <td><button onclick="disp('/')">/</button></td>
+                <td><button id="eql" onclick="result()">=</button></td>
+             </tr>
+            
+
+        </table>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    align-items: center;
+    text-align: center;
+}
+button{
+    width: 100%;
+    background: #c9ffc7; 
+    border-radius: 12px;
+}
+
+#input{
+    background: #9fd3c7; 
+    display: inline;
+}
+
+#eql{
+   background-color: red;
+}
+
